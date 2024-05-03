@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import simpledialog #Simpledialog allows us to have this ui we are using right now. It looks a bit old but I-
+from tkinter import simpledialog #tkinter and Simpledialog allows us to have this ui we are using right now. It looks a bit old but I-
 #-couldn't get the themes to work.
 
 
@@ -30,8 +30,7 @@ def update_tasks():
 root = tk.Tk()
 root.title("ToDo List")
 
-# Here's a list that will hold all your tasks. You can think of it like a magic
-# box that keeps all the tasks you need to remember.
+
 tasks = []
 
 # This is a special box where we show all the tasks you need to do. It's like
@@ -53,7 +52,5 @@ root.mainloop()
 
 
 
-#Remember that I tried to make the comments seem better and more fun in a way but if it's still bad then tell me:)
-#I want to improve as much as possible.
-#Also I never got the themes to work as well as the ability to save things as I couldn't really understand them.
-
+#I never got the themes to work as well as the ability to save things as I couldn't really understand them.
+#Also I tried to make the comments seem better and more fun in a way so it won't be boring to read.
